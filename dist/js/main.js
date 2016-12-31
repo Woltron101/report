@@ -1,0 +1,1 @@
+const REPORTS=angular.module("REPORTS",["ngAnimate","ngSanitize","ui.bootstrap","ui.router"]),mainCtrl=REPORTS.controller("mainCtrl",["$scope",function(t){}]);REPORTS.controller("mainFormCtrl",["$scope",function(t){t.mytime=new Date,t.hstep=1,t.mstep=1}]),REPORTS.controller("timepickerCtrl",function(t){});
